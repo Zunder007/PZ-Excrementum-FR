@@ -1,0 +1,3 @@
+Tooltip_FR = {
+	Tooltip_HumanFeces = "Même si vous pouvez le manger, vous ne devriez vraiment pas le manger. Ugh!",
+}
