@@ -1,0 +1,44 @@
+Sandbox_FR = {
+	Sandbox_Excrementum = "Excrementum",
+
+	Sandbox_Excrementum_StomachMultiplier = "Multiplicateur Temps Digestion",
+	Sandbox_Excrementum_StomachMultiplier_tooltip = "Combien de temps est nécessaire pour passer dans l'estomac.\nLa valeur par défaut est réaliste.",
+	
+	Sandbox_Excrementum_ChymeMultiplier = "Multiplicateur Chyme (Unités de faim)",
+	Sandbox_Excrementum_ChymeMultiplier_tooltip = "Combien de nourriture quitte l'estomac sous forme de chyme toutes les 10 minutes de jeu.",
+	
+	Sandbox_Excrementum_DefecateIntMinutes = "Temps Intestin (minutes)",
+	Sandbox_Excrementum_DefecateIntMinutes_tooltip = "Minutes en jeu pour passer l'intestin\n(entre l'estomac et le côlon).",
+	
+	Sandbox_Excrementum_ColonMinutes = "Temps Côlon (minutes)",
+	Sandbox_Excrementum_ColonMinutes_tooltip = "Combien de temps doit s'écouler pour que commence la descente au-delà du seuil du côlon.",
+	
+	Sandbox_Excrementum_ColonBaseThreshold = "Seuil du Côlon (pourcentage)",
+	Sandbox_Excrementum_ColonBaseThreshold_tooltip = "Le pourcentage de remplissage du côlon qui déclanche l'envie de déféquer.\nCertains aliments peuvent modifier ce seuil.",
+	
+	Sandbox_Excrementum_UrinateIncreaseMultiplier = "Multiplicateur Urine",
+	Sandbox_Excrementum_UrinateIncreaseMultiplier_tooltip = "Multiplicateur de production d'urine à partir d'eau bue.\nLa valeur par défaut est 1:1, où 10 unités de soif = 100 ml.\nAffecte également l'effet diurétique.",
+	
+	Sandbox_Excrementum_UrinatePassiveMultiplier = "Multiplicateur Urine Passif",
+	Sandbox_Excrementum_UrinatePassiveMultiplier_tooltip = "Multiplicateur passif de production d'urine à partir du métabolisme.\nPar défaut ~ 30% de toute la production (Si pas de traits spécifiques, pas de froid etc).",
+
+	Sandbox_Excrementum_StomachVolume = "Volume Estomac (Unités de faim)",
+	Sandbox_Excrementum_StomachVolume_tooltip = "Le volume de l'estomac qui maintient l'humeur de restauration de la santé (le chiffre à coté de l'icône) en vert.",
+
+	Sandbox_Excrementum_AdditionalStomachVolume = "Volume Estomac Additionnel",
+	Sandbox_Excrementum_AdditionalStomachVolume_tooltip = "L'estomac peut être distendu. Capacité maximale : c'est 'Volume Estomac' plus ceci.\nLe personnage n'acceptera pas de nourriture au-delà de sa capacité maximale.",
+	
+	Sandbox_Excrementum_OverlayIsAllowed = "Superposition Régénération Santé",
+	Sandbox_Excrementum_OverlayIsAllowed_tooltip = "Superposition Régénération est autorisé pour les clients.\nIls seront en mesure de basculer on/off et changer la position en fonction des options choisies.",
+
+	Sandbox_Excrementum_EnabledStatusBars = "Barres d'état",
+	Sandbox_Excrementum_EnabledStatusBars_tooltip = "La fenêtre d'état est autorisée pour les clients.\nIls seront en mesure de basculer on/off, changer en mode barres, changer la position etc.",
+
+	Sandbox_Excrementum_Shame = "Honte",
+	Sandbox_Excrementum_Shame_tooltip = "Comment la honte est activée (y compris le multijoueur).",
+	Sandbox_Excrementum_ShameLevels_option1 = "Off",
+	Sandbox_Excrementum_ShameLevels_option2 = "Auto Détection Retexture",
+	Sandbox_Excrementum_ShameLevels_option3 = "Toujours On",
+	Sandbox_Excrementum_ShameLevels_option4 = "On même en mode Dieu",
+
+}
