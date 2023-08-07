@@ -1,0 +1,117 @@
+UI_FR = {
+	UI_Exc_HumanFeces = "Excréments humains",
+	UI_Exc_HumanFecesShort = "Excréments",    /* 5-6 symboles maximum! */
+	UI_Exc_HumanUrine = "Urine",
+	UI_Exc_HumanUrineShort = "Urine",
+	UI_Exc_HumanFecesMicro = "f",
+	UI_Exc_HumanUrineMicro = "u",
+
+	UI_optionscreen_binding_ExcrementumStatus = "Statut Excrementum",
+	UI_Exc_Say_Urinated_M = "Je me suis pissé dessus...",
+	UI_Exc_Say_Urinated_F = "Je me suis pissé dessus...",
+	UI_Exc_Say_Defecated_M = "Je me suis chié dessus...",
+	UI_Exc_Say_Defecated_F = "Je me suis chié dessus...",
+	
+	UI_Exc_UrinationMini = "Vessie:  %1  %2%",
+	UI_Exc_DefecationMini = "Côlon:  %1  %2%",
+	UI_Exc_InvTooltip_HasFeces = "Odeur Fécale",
+	UI_Exc_InvTooltip_Feces = "Excréments coincés: %1",
+	UI_Exc_InvTooltip_Urine = "Odeur Urine",
+	UI_Exc_InvTooltip_HasFecesRGB = "<RGB:0.7,0.3,0>Odeur Fécale",
+	UI_Exc_InvTooltip_FecesRGB = "<RGB:0.7,0.3,0>Excréments coincés: %1",
+	UI_Exc_InvTooltip_UrineRGB = "<RGB:1,1,0>Odeur Urine",
+	UI_Exc_StressChange = "Stress: %1",
+	
+	UI_Exc_BoredomChange = "Ennui: %1",
+	UI_Exc_BoredomChangeP = "Ennui: +%1",
+	UI_Exc_UnhappynessChange = "Malheur: %1",
+	UI_Exc_UnhappynessChangeP = "Malheur: +%1",
+	UI_Exc_FatigueChange = "Fatigue: %1%",
+	UI_Exc_FatigueChangeP = "Fatigue: +%1%",
+	UI_Exc_PagesChange = "+%1 pages",
+	
+	UI_Exc_Poisoning = "Substance Toxique",
+	UI_Exc_Diarrhea = "Diarrhée",
+	UI_Exc_Diuretic = "Diurétique",
+	
+	UI_Exc_Seats = "Sièges", /* in vehicle */
+	UI_Exc_Room = "La pièce",
+	UI_Exc_YourBody = "Votre corps",
+	
+	/* OPTION SOUNDS */
+	
+	UI_Exc_Option_PooSoundTypes = "Types de sons défécation",
+	UI_Exc_Option_PooSoundTypes_Tooltip = "Extérieur ne signifie pas toilette. Extérieur/toilette comprend se faire dessus.",
+	UI_Exc_Option_PooSoundTypes_All = "Tout",
+	UI_Exc_Option_PooSoundTypes_NoDefecateProcess = "Pas de processus de défécation",
+	UI_Exc_Option_PooSoundTypes_NoFart = "Pas de pet",
+	UI_Exc_Option_PooSoundTypes_OnlyOutdoors = "Seulement à l'extérieur",
+	UI_Exc_Option_PooSoundTypes_OnlyToilet = "Toilettes seulement",
+	UI_Exc_Option_PooSoundTypes_None = "Aucun",
+	UI_Exc_Option_PooSoundTypes_NoneButPooSelf = "Seulement se faire dessus",
+	UI_Exc_Option_PooSoundTypes_NoneButClothes = "Seulement avec vêtements",
+
+	UI_Exc_Option_PeeSoundTypes = "Types de sons urination",
+	UI_Exc_Option_PeeSoundTypes_Tooltip = "Extérieur ne signifie pas toilette. Extérieur/toilette comprend se pisser dessus.",
+	UI_Exc_Option_PeeSoundTypes_All = "Tout",
+	UI_Exc_Option_PeeSoundTypes_OnlyOutdoors = "Seulement à l'extérieur",
+	UI_Exc_Option_PeeSoundTypes_OnlyToilet = "Toilettes seulement",
+	UI_Exc_Option_PeeSoundTypes_None = "Aucun",
+	UI_Exc_Option_PeeSoundTypes_NoneButPeeSelf = "Seulement se pisser dessus",
+	UI_Exc_Option_PeeSoundTypes_NoneButZip = "Seulement avec fermeture éclair/vêtements",
+	
+	UI_Exc_Option_ExtractSound = "Son d'extraction des matières fécales",
+	UI_Exc_Option_FlushSound = "Son Tirer la chasse d'eau",
+	
+	UI_Exc_Option_GrowlSound = "Son grognement",
+	UI_Exc_Option_GrowlSound_Tooltip = "Il y a peu de stades de douleur avec des sons différents.",
+	UI_Exc_Option_GrowlSound_Always = "Toujours",
+	UI_Exc_Option_GrowlSound_Never = "Jamais",
+	UI_Exc_Option_GrowlSound_OnlyOnce = "Une fois seulement",
+	UI_Exc_Option_GrowlSound_OnlyOnceOnEachStage = "Seulement une fois à chaque étape",
+	
+	/* OPTION MOODLES */
+	
+	UI_Exc_Option_StomachMoodle = "Humeur Estomac",
+	UI_Exc_Option_StomachMoodle_ShowAny = "Afficher n'importe lequel",
+	UI_Exc_Option_StomachMoodle_ShowOnlyRed = "Afficher uniquement le rouge",
+	UI_Exc_Option_StomachMoodle_Hide = "Cacher",
+
+	UI_Exc_Option_ColonMoodle = "Humeur Côlon",
+	UI_Exc_Option_ColonMoodle_ShowAny = "Afficher n'importe lequel",
+	UI_Exc_Option_ColonMoodle_NoSmallIntestine = "Pas d'intestin grêle",
+	UI_Exc_Option_ColonMoodle_NoGreen = "Afficher uniquement le rouge",
+	UI_Exc_Option_ColonMoodle_Hide = "Cacher",
+
+	UI_Exc_Option_UrineMoodle = "Humeur Vessie",
+	UI_Exc_Option_UrineMoodle_ShowAny = "Afficher n'importe lequel",
+	UI_Exc_Option_UrineMoodle_ShowOnlyRed = "Afficher uniquement le rouge",
+	UI_Exc_Option_UrineMoodle_ShowOnlyPain = "Afficher uniquement la douleur",
+	UI_Exc_Option_UrineMoodle_Hide = "Cacher",
+
+	UI_Exc_Option_SmellMoodle = "Humeur Odeur",
+	UI_Exc_Option_NoAffectGameplay_Tooltip = "Cette option n'affecte pas le gameplay.",
+	
+	/* REGEN OVERLAY */
+	UI_Exc_Option_Overlay = "Superposition Régénération Santé",
+	UI_Exc_Option_Overlay_Tooltip = "Spécifier si vous souhaitez voir la superposition de la régénération causée par l'humeur Estomac vert. <br> 1) Toujours visible dans le coin supérieur droit sous la montre. <br> 2) Toujours visible mais coller à l'humeur Estomac si possible. <br> 3) Visible seulement si vous avez quelque chose dans l'estomac. <br> 4) Visible uniquement si votre personnage est malade. <br> 5) Désactivé.",
+	UI_Exc_Option_Overlay_Tooltip2 = "6) Uniquement sur le panneau santé.",
+	UI_Exc_Option_Overlay_AlwaysOnTop = "Toujours visible",
+	UI_Exc_Option_Overlay_NearStomachIfPossible = "Près de l'estomac si possible",
+	UI_Exc_Option_Overlay_NearStomachOnly = "Près de l'estomac seulement",
+	UI_Exc_Option_Overlay_OnlyIfSickVisible = "Visible seulement en cas de maladie",
+	UI_Exc_Option_Overlay_Off = "Off",
+	UI_Exc_Option_Overlay_HealthPanel = "Panneau santé uniquement",
+
+	/* COMPATIBILITY */
+	UI_MiniHealth_ExcShowClothes = "Afficher les parties couvertes",
+	UI_MiniHealth_ExcShowClothesTooltip = "Les parties couvertes sont bleues. <br> La poitrine (seulement personnage féminin) et l'aine sont bleu clair si elles sont découvertes.",
+
+	UI_SimpleStatus_ExcHidden = "[caché]",
+
+
+	/* TRAITS */
+	UI_trait_ExcVoyeuristic = "Voyeuriste",
+	UI_trait_VoyeuristicDesc = "Prend du plaisir à regarder les autres quand ils sont nus.",
+
+}
