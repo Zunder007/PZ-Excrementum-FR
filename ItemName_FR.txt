@@ -1,0 +1,14 @@
+ItemName_FR = {
+	ItemName_Base.HumanFeces = "Excréments humains",
+	ItemName_Base.HumanFeces1 = "Excréments humains",
+	ItemName_Base.HumanFeces2 = "Excréments humains",
+	ItemName_Base.HumanFeces3 = "Excréments humains",
+	
+	ItemName_Base.PaintTinDefecate = "Seau de matières fécales",
+	ItemName_Base.BucketFullDefecate = "Seau de matières fécales",
+	ItemName_Base.BucketDefecatedDirty = "Seau sale",
+	ItemName_Base.PaintTinDefecatedDirty = "Seau sale",
+	
+	ItemName_Base.BathTowelDirty = "Serviette de bain sale",
+	ItemName_Base.DishClothDirty = "Torchon sale",
+}
