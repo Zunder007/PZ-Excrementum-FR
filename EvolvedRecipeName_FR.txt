@@ -1,0 +1,5 @@
+EvolvedRecipeName_FR = {
+	EvolvedRecipeName_Base.HumanFeces1 = "Excréments humains",
+	EvolvedRecipeName_Base.HumanFeces2 = "Excréments humains",
+	EvolvedRecipeName_Base.HumanFeces3 = "Excréments humains",
+}
